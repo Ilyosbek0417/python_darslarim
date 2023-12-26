@@ -1,0 +1,13 @@
+davlatlar = ['uzb', 'rus', 'eng', 'use', 'uk']
+print(davlatlar)
+uznlik= len(davlatlar)
+print(uznlik)
+print(sorted(davlatlar))
+print(sorted(davlatlar,  reverse=True))
+print(davlatlar, 'asl royxat')
+davlatlar.reverse()
+print(davlatlar)
+davlatlar.sort()
+print(davlatlar)
+davlatlar.sort(reverse=True)
+print(davlatlar)
